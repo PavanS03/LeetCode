@@ -1,0 +1,31 @@
+# Move Zeroes
+
+## Problem
+Given an integer array `nums`, move all `0`s to the end while maintaining the relative order of the non-zero elements.
+
+The operation must be done in-place without creating another array.
+
+
+## Approach
+- Traverse through the array.
+- Move all non-zero elements to the front.
+- Keep track of the position where the next non-zero element should be placed.
+- After placing all non-zero elements, fill the remaining positions with zeroes.
+
+
+## Example
+
+Input:
+nums = [0,1,0,3,12]
+
+Output:
+[1,3,12,0,0]
+
+Explanation:
+All non-zero numbers are moved to the front while maintaining their original order.
+
+## Time Complexity
+O(n)
+
+## Space Complexity
+O(1)
